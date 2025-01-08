@@ -36,6 +36,8 @@ def to_bin(num):
 
 
 def to_dec(num):
+    # return str(sum([int(digit) * (2**pos) for pos, digit in enumerate(num[::-1])]))
+
     result = 0
     for pos, digit in enumerate(num[::-1]):
         result += int(digit) * (2**pos)
