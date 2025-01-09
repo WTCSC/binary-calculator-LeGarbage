@@ -1,3 +1,4 @@
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=17649988)
 # Binary Calculator
 
 <!--
@@ -21,3 +22,20 @@ The following requirements must be met to receive full credit on this assignment
 Your solution will be tested against various test cases including edge cases, invalid inputs, and all four arithmetic operations.
 
  -->
+
+There are 2 types of people in this world: people who need to do mathematical operations with binary numbers, and normal people. If you find yourself to be of the former, then this binary calculator is for you! This calculator is incredibly sophisticated, being able to perform addition, subtraction, multiplication, and even division.
+
+## How to use
+ 
+- Download calculator.py and import it into your project
+- Call the *binary_calculator* function, which takes 3 arguments
+    - *bin1* [str] The first binary number you want to operate on (either the addend, subtrahend, factor, or dividend in addition, subtraction, multiplication, or division respectively)
+    - *bin2* [str] The second binary number you want to operate on (either the addend, minuend, factor, or divisor in addition, subtraction, multiplication, or division respectively)
+    - *operator* [str] The operation to perform (can be +, -, *, or /)
+- The *binary_calculator* returns the result of the operation as a binary number in a string
+
+## Features
+
+- Returns NaN for division by zero
+- Returns Error for non-binary numbers or invalid characters
+- Returns Overflow for negative results or results larger than 8 bits (over 255)
